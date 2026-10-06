@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Free Concrete & Driveway Estimate | StoneCraft Paving</title>
+<meta name="description" content="Request a free concrete and driveway estimate from StoneCraft Paving. Driveways, patios, walkways, decorative concrete, slabs and commercial paving.">
+<script>try{var t=localStorage.getItem('site-theme');if(t==='dark')document.documentElement.classList.add('dark');document.documentElement.dir=localStorage.getItem('site-direction')||'ltr';}catch(e){}</script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script>tailwind.config={darkMode:'class'}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><rect width='24' height='24' rx='5' fill='%23D97706'/><path d='M5 17l5-5 3 3 6-6' stroke='white' stroke-width='2' fill='none' stroke-linecap='round'/></svg>">
+</head>
+<body class="font-inter antialiased">
+<div id="navbar"></div>
+<main>
+<section class="relative min-h-[100vh] flex items-center overflow-hidden py-16 md:py-20">
+<img src="images/hero/concrete-driveway-hero.jpg" alt="" aria-hidden="true" class="absolute inset-0 w-full h-full object-cover" width="1600" height="900">
+<div class="absolute inset-0 hero-overlay" aria-hidden="true"></div>
+<div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+<nav class="flex justify-center text-xs font-bold text-gray-300 mb-3" aria-label="Breadcrumb"><a href="index.html" class="hover:text-[#D97706]">Home</a> <span aria-hidden="true">&nbsp;/&nbsp;</span> <span class="text-white">Contact</span></nav>
+<span class="inline-flex bg-[#D97706] text-white text-xs font-extrabold tracking-[0.2em] uppercase px-4 py-2 rounded-full">Free Estimates</span>
+<h1 class="font-head text-white font-extrabold text-4xl sm:text-5xl mt-4 max-w-2xl mx-auto">Request Your Free Estimate</h1>
+<p class="text-gray-200 mt-4 max-w-xl mx-auto leading-relaxed">Tell us about your project and our team will get in touch — most requests answered within one business day (demo).</p>
+<div class="flex flex-col sm:flex-row justify-center gap-3 mt-7">
+<a href="#estimateForm" class="btn btn-amber inline-flex justify-center font-bold px-7 py-3.5 rounded-lg">Start the Form Below</a>
+<a href="tel:+15551234567" class="btn btn-outline-w inline-flex justify-center font-bold px-7 py-3.5 rounded-lg">Call (555) 123-4567</a>
+</div>
+<div class="flex flex-wrap justify-center gap-2 mt-7" aria-label="Quick contact details">
+<a href="tel:+15551234567" class="text-xs font-bold bg-white/10 hover:bg-[#D97706] text-white px-4 py-2.5 rounded-full backdrop-blur transition-colors">✆ (555) 123-4567</a>
+<a href="mailto:hello@stonecraftpaving.com" class="text-xs font-bold bg-white/10 hover:bg-[#D97706] text-white px-4 py-2.5 rounded-full backdrop-blur transition-colors break-all">@ hello@stonecraftpaving.com</a>
+<span class="text-xs font-bold bg-white/10 text-white px-4 py-2.5 rounded-full backdrop-blur">◷ Mon–Sat · 8AM–6PM</span>
+</div>
+<div class="grid grid-cols-3 gap-3 mt-8 max-w-lg mx-auto text-center">
+<div class="bg-black/40 backdrop-blur rounded-xl px-3 py-3.5"><p class="font-head font-extrabold text-2xl sm:text-3xl text-[#D97706]">1</p><p class="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest text-gray-200">Tell us</p></div>
+<div class="bg-black/40 backdrop-blur rounded-xl px-3 py-3.5"><p class="font-head font-extrabold text-2xl sm:text-3xl text-[#D97706]">2</p><p class="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest text-gray-200">We visit</p></div>
+<div class="bg-black/40 backdrop-blur rounded-xl px-3 py-3.5"><p class="font-head font-extrabold text-2xl sm:text-3xl text-white">3</p><p class="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest text-[#D97706]">Estimate</p></div>
+</div>
+</div></section>
+
+<section class="bg-[#F3F4F6] dark:bg-[#111827] py-12 md:py-16 scroll-mt-20">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-3 gap-8">
+<!-- FORM -->
+<div class="lg:col-span-2 light-surface bg-white rounded-2xl border border-gray-200 p-6 md:p-9 shadow-sm">
+<h2 class="font-head text-2xl font-extrabold light-text">Free Estimate Form</h2>
+<p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Frontend demo only — submissions are not sent to a CRM or email system.</p>
+<div id="formSuccess" class="hidden mt-5 rounded-xl border-s-4 border-green-600 bg-green-50 dark:bg-green-900/30 p-4" role="alert">
+<p class="font-bold text-green-800 dark:text-green-200">Thank you! Your estimate request has been submitted.</p>
+<p class="text-sm text-green-700 dark:text-green-300 mt-1">Our team will review your project details and contact you soon.</p>
+</div>
+<form id="estimateForm" class="grid grid-cols-1 md:grid-cols-2 gap-5 mt-6" novalidate>
+<div><label for="fullName" class="block text-sm font-bold light-text mb-1.5">Full Name *</label>
+<input id="fullName" name="fullName" type="text" autocomplete="name" placeholder="John Smith" class="field-input w-full rounded-lg border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-[#1F2937] px-4 py-3 text-sm light-text" required aria-describedby="fullNameError">
+<p id="fullNameError" class="error-msg" role="alert"></p></div>
+<div><label for="phone" class="block text-sm font-bold light-text mb-1.5">Phone Number *</label>
+<input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="(555) 123-4567" class="field-input w-full rounded-lg border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-[#1F2937] px-4 py-3 text-sm light-text" required aria-describedby="phoneError">
+<p id="phoneError" class="error-msg" role="alert"></p></div>
+<div><label for="email" class="block text-sm font-bold light-text mb-1.5">Email *</label>
+<input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" class="field-input w-full rounded-lg border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-[#1F2937] px-4 py-3 text-sm light-text" required aria-describedby="emailError">
+<p id="emailError" class="error-msg" role="alert"></p></div>
+<div><label for="address" class="block text-sm font-bold light-text mb-1.5">Property Address</label>
+<input id="address" name="address" type="text" autocomplete="street-address" placeholder="123 Main St, Town" class="field-input w-full rounded-lg border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-[#1F2937] px-4 py-3 text-sm light-text"></div>
+<div><label for="projectType" class="block text-sm font-bold light-text mb-1.5">Project Type *</label>
+<select id="projectType" name="projectType" class="field-input w-full rounded-lg border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-[#1F2937] px-4 py-3 text-sm light-text" required aria-describedby="projectTypeError">
+<option value="">Select a project type</option><option>Concrete Driveway</option><option>Concrete Patio</option><option>Walkway</option><option>Decorative Concrete</option><option>Concrete Slab</option><option>Driveway Resurfacing</option><option>Commercial Paving</option><option>Other</option></select>
+<p id="projectTypeError" class="error-msg" role="alert"></p></div>
+<div><label for="size" class="block text-sm font-bold light-text mb-1.5">Estimated Project Size</label>
+<select id="size" name="size" class="field-input w-full rounded-lg border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-[#1F2937] px-4 py-3 text-sm light-text"><option>Small</option><option>Medium</option><option>Large</option><option selected>Not Sure</option></select></div>
+<fieldset class="md:col-span-1"><legend class="text-sm font-bold light-text mb-1.5">Preferred Contact Method</legend>
+<div class="flex gap-4 text-sm light-text"><label class="flex items-center gap-2"><input type="radio" name="contactMethod" value="phone" checked class="accent-[#D97706] w-4 h-4"> Phone</label>
+<label class="flex items-center gap-2"><input type="radio" name="contactMethod" value="email" class="accent-[#D97706] w-4 h-4"> Email</label></div></fieldset>
+<div><label for="timeline" class="block text-sm font-bold light-text mb-1.5">Preferred Project Timeline</label>
+<select id="timeline" name="timeline" class="field-input w-full rounded-lg border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-[#1F2937] px-4 py-3 text-sm light-text"><option>As Soon As Possible</option><option>Within 1 Month</option><option>1–3 Months</option><option>Just Planning</option></select></div>
+<div class="md:col-span-2"><label for="details" class="block text-sm font-bold light-text mb-1.5">Project Details</label>
+<textarea id="details" name="details" rows="4" placeholder="Tell us about your project..." class="field-input w-full rounded-lg border-2 border-gray-200 dark:border-gray-600 bg-white dark:bg-[#1F2937] px-4 py-3 text-sm light-text"></textarea></div>
+<div class="md:col-span-2"><label for="photos" class="block text-sm font-bold light-text mb-1.5">Upload Project Photos</label>
+<label class="flex items-center justify-center gap-2 border-2 border-dashed border-gray-300 dark:border-gray-600 rounded-xl px-4 py-6 text-sm font-semibold text-gray-500 cursor-pointer hover:border-[#D97706] hover:text-[#D97706]">
+<span id="fileLabel">Choose photos (JPG, PNG, WEBP)</span>
+<input id="photos" type="file" accept=".jpg,.jpeg,.png,.webp" multiple class="sr-only"></label>
+<p id="photosError" class="error-msg" role="alert"></p></div>
+<div class="md:col-span-2"><button type="submit" class="btn btn-amber w-full sm:w-auto inline-flex justify-center font-bold px-10 py-3.5 rounded-lg">Request Free Estimate</button></div>
+</form>
+</div>
+
+<!-- INFO -->
+<div class="space-y-5">
+<div class="light-surface bg-white rounded-2xl border border-gray-200 p-6"><h2 class="font-head font-extrabold light-text">Contact Information</h2><p class="text-xs text-gray-400 mt-1">Demo contact details for illustration.</p>
+<ul class="mt-4 space-y-4 text-sm">
+<li class="flex gap-3"><span class="w-10 h-10 rounded-lg bg-[#374151] text-[#D97706] flex items-center justify-center shrink-0 font-bold">✆</span><span><span class="block font-bold light-text">Call Us</span><a href="tel:+15551234567" class="text-[#D97706] font-bold">(555) 123-4567</a></span></li>
+<li class="flex gap-3"><span class="w-10 h-10 rounded-lg bg-[#374151] text-[#D97706] flex items-center justify-center shrink-0 font-bold">@</span><span><span class="block font-bold light-text">Email</span><a href="mailto:hello@stonecraftpaving.com" class="text-[#D97706] font-bold break-all">hello@stonecraftpaving.com</a></span></li>
+<li class="flex gap-3"><span class="w-10 h-10 rounded-lg bg-[#374151] text-[#D97706] flex items-center justify-center shrink-0 font-bold">◉</span><span><span class="block font-bold light-text">Service Area</span><span class="light-muted text-gray-500">Residential &amp; Commercial</span></span></li>
+<li class="flex gap-3"><span class="w-10 h-10 rounded-lg bg-[#374151] text-[#D97706] flex items-center justify-center shrink-0 font-bold">◷</span><span><span class="block font-bold light-text">Hours</span><span class="light-muted text-gray-500">Mon–Sat · 8:00 AM – 6:00 PM</span></span></li>
+</ul></div>
+<div class="map-decor bg-white dark:bg-[#1F2937] rounded-2xl border border-gray-200 dark:border-gray-700 p-6">
+<h2 class="font-head font-extrabold light-text">Serving Our Local Community</h2>
+<div class="grid grid-cols-2 gap-2 mt-4 text-xs font-bold">
+<span class="bg-[#374151] text-white rounded-lg px-3 py-2 text-center">Residential</span>
+<span class="bg-[#374151] text-white rounded-lg px-3 py-2 text-center">Commercial</span>
+<span class="bg-[#D97706] text-white rounded-lg px-3 py-2 text-center">New Construction</span>
+<span class="bg-white dark:bg-gray-700 border border-gray-200 dark:border-gray-600 rounded-lg px-3 py-2 text-center light-text">Property Improvements</span>
+</div></div>
+</div>
+</div>
+
+<!-- FAQ -->
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-14">
+<h2 class="font-head text-3xl font-extrabold text-center light-text">Frequently Asked Questions</h2>
+<div class="mt-8 space-y-3" id="faqList">
+<div class="faq-item light-surface bg-white border border-gray-200 rounded-xl overflow-hidden"><button class="faq-q w-full flex items-center justify-between gap-4 text-start font-bold px-5 py-4 light-text" aria-expanded="false">How much does a concrete driveway cost? <span class="faq-chevron text-[#D97706]">▼</span></button><div class="faq-answer px-5"><p class="pb-5 text-sm text-gray-600 dark:text-gray-300">Costs depend on size, access, preparation and finish. Request a free estimate and we will review your property and discuss options. Demo content.</p></div></div>
+<div class="faq-item light-surface bg-white border border-gray-200 rounded-xl overflow-hidden"><button class="faq-q w-full flex items-center justify-between gap-4 text-start font-bold px-5 py-4 light-text" aria-expanded="false">How long does a driveway project take? <span class="faq-chevron text-[#D97706]">▼</span></button><div class="faq-answer px-5"><p class="pb-5 text-sm text-gray-600 dark:text-gray-300">Most residential driveways take a few days including preparation and curing guidance. Timelines vary by size and weather. Demo content.</p></div></div>
+<div class="faq-item light-surface bg-white border border-gray-200 rounded-xl overflow-hidden"><button class="faq-q w-full flex items-center justify-between gap-4 text-start font-bold px-5 py-4 light-text" aria-expanded="false">Do you provide free estimates? <span class="faq-chevron text-[#D97706]">▼</span></button><div class="faq-answer px-5"><p class="pb-5 text-sm text-gray-600 dark:text-gray-300">Yes. Tell us about your project through the form above and we will get in touch to discuss next steps. Demo content.</p></div></div>
+<div class="faq-item light-surface bg-white border border-gray-200 rounded-xl overflow-hidden"><button class="faq-q w-full flex items-center justify-between gap-4 text-start font-bold px-5 py-4 light-text" aria-expanded="false">Can you replace an existing driveway? <span class="faq-chevron text-[#D97706]">▼</span></button><div class="faq-answer px-5"><p class="pb-5 text-sm text-gray-600 dark:text-gray-300">Yes, including removal, base preparation and a new pour with a clean finish. Demo content.</p></div></div>
+<div class="faq-item light-surface bg-white border border-gray-200 rounded-xl overflow-hidden"><button class="faq-q w-full flex items-center justify-between gap-4 text-start font-bold px-5 py-4 light-text" aria-expanded="false">Do you install concrete patios? <span class="faq-chevron text-[#D97706]">▼</span></button><div class="faq-answer px-5"><p class="pb-5 text-sm text-gray-600 dark:text-gray-300">Yes — patios, extensions, entertaining areas and custom shapes. Demo content.</p></div></div>
+<div class="faq-item light-surface bg-white border border-gray-200 rounded-xl overflow-hidden"><button class="faq-q w-full flex items-center justify-between gap-4 text-start font-bold px-5 py-4 light-text" aria-expanded="false">Can you repair cracked concrete? <span class="faq-chevron text-[#D97706]">▼</span></button><div class="faq-answer px-5"><p class="pb-5 text-sm text-gray-600 dark:text-gray-300">We offer crack repair and resurfacing where appropriate, and replacement when that is the better long-term option. Demo content.</p></div></div>
+<div class="faq-item light-surface bg-white border border-gray-200 rounded-xl overflow-hidden"><button class="faq-q w-full flex items-center justify-between gap-4 text-start font-bold px-5 py-4 light-text" aria-expanded="false">Do you work on commercial projects? <span class="faq-chevron text-[#D97706]">▼</span></button><div class="faq-answer px-5"><p class="pb-5 text-sm text-gray-600 dark:text-gray-300">Yes — parking areas, slabs and other commercial concrete work. Demo content.</p></div></div>
+<div class="faq-item light-surface bg-white border border-gray-200 rounded-xl overflow-hidden"><button class="faq-q w-full flex items-center justify-between gap-4 text-start font-bold px-5 py-4 light-text" aria-expanded="false">How should I prepare for a paving project? <span class="faq-chevron text-[#D97706]">▼</span></button><div class="faq-answer px-5"><p class="pb-5 text-sm text-gray-600 dark:text-gray-300">Clear vehicles and obstacles from the work area and keep pets and children away during the pour and curing period. We handle the rest. Demo content.</p></div></div>
+</div>
+</div>
+
+<!-- SERVICE AREA MAP -->
+<section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-14" aria-labelledby="map-h">
+<div class="light-surface bg-white border border-gray-200 rounded-2xl overflow-hidden grid lg:grid-cols-2 shadow-sm">
+<div class="p-6 md:p-9">
+<span class="text-[#D97706] font-extrabold text-xs tracking-[0.25em] uppercase">Service area</span>
+<h2 id="map-h" class="font-head text-3xl font-extrabold mt-2 light-text">Proudly Serving Local Neighborhoods</h2>
+<p class="text-sm text-gray-500 dark:text-gray-400 mt-3">Demo service zones for illustration — no real customer location is shown or tracked.</p>
+<ul class="grid grid-cols-1 sm:grid-cols-2 gap-2.5 mt-6 text-sm font-semibold light-text">
+<li class="flex items-center gap-2.5 bg-[#F3F4F6] dark:bg-gray-700/40 rounded-lg px-3.5 py-2.5"><span class="w-2.5 h-2.5 rounded-full bg-[#D97706] shrink-0"></span> Maple District</li>
+<li class="flex items-center gap-2.5 bg-[#F3F4F6] dark:bg-gray-700/40 rounded-lg px-3.5 py-2.5"><span class="w-2.5 h-2.5 rounded-full bg-[#D97706] shrink-0"></span> Oak Grove</li>
+<li class="flex items-center gap-2.5 bg-[#F3F4F6] dark:bg-gray-700/40 rounded-lg px-3.5 py-2.5"><span class="w-2.5 h-2.5 rounded-full bg-[#D97706] shrink-0"></span> Cedar Hills</li>
+<li class="flex items-center gap-2.5 bg-[#F3F4F6] dark:bg-gray-700/40 rounded-lg px-3.5 py-2.5"><span class="w-2.5 h-2.5 rounded-full bg-[#D97706] shrink-0"></span> Riverbend</li>
+<li class="flex items-center gap-2.5 bg-[#F3F4F6] dark:bg-gray-700/40 rounded-lg px-3.5 py-2.5"><span class="w-2.5 h-2.5 rounded-full bg-[#D97706] shrink-0"></span> Elm Street Area</li>
+<li class="flex items-center gap-2.5 bg-[#F3F4F6] dark:bg-gray-700/40 rounded-lg px-3.5 py-2.5"><span class="w-2.5 h-2.5 rounded-full bg-[#D97706] shrink-0"></span> Business Park Zone</li>
+</ul>
+<div class="flex flex-col sm:flex-row gap-3 mt-6">
+<a href="#estimateForm" class="btn btn-amber inline-flex justify-center font-bold px-6 py-3 rounded-lg text-sm">Check My Area — Free</a>
+<a href="tel:+15551234567" class="btn inline-flex justify-center font-bold px-6 py-3 rounded-lg text-sm border-2 border-gray-300 dark:border-gray-600 light-text">Call to Confirm</a>
+</div>
+</div>
+<div class="relative min-h-[320px] lg:min-h-full bg-[#374151]">
+<iframe title="Demo service area map (Springfield, IL — placeholder location)" src="https://www.google.com/maps?q=Springfield,IL&z=11&output=embed" class="absolute inset-0 w-full h-full" style="border:0;min-height:320px" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+<span class="absolute bottom-3 start-3 bg-[#111827]/85 text-white text-[11px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-full backdrop-blur">Demo location — not a real business address</span>
+</div>
+</div>
+</section>
+</section>
+
+<!-- CTA -->
+<section class="bg-[#1F2937] border-0 mt-14" aria-label="Call to action">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-center">
+<h2 class="font-head text-white text-3xl md:text-4xl font-extrabold reveal">Ready When You Are</h2>
+<p class="text-gray-300 mt-3 reveal">Send the form, attach a photo, and get a clear written estimate — free.</p>
+<div class="flex flex-col sm:flex-row justify-center gap-3 mt-7 reveal">
+<a href="#estimateForm" class="btn btn-amber inline-flex justify-center font-bold px-8 py-3.5 rounded-lg">Back to the Form ↑</a>
+<a href="tel:+15551234567" class="btn inline-flex justify-center font-bold px-8 py-3.5 rounded-lg border-2 border-white/40 text-white hover:border-[#D97706] hover:text-[#D97706]">Call (555) 123-4567</a>
+</div>
+<div class="flex flex-wrap justify-center gap-2 mt-7 reveal">
+<span class="text-[11px] font-extrabold uppercase tracking-widest bg-white/10 text-gray-200 px-4 py-2 rounded-full">Free estimates</span>
+<span class="text-[11px] font-extrabold uppercase tracking-widest bg-white/10 text-gray-200 px-4 py-2 rounded-full">Mon–Sat · 8AM–6PM</span>
+<span class="text-[11px] font-extrabold uppercase tracking-widest bg-white/10 text-gray-200 px-4 py-2 rounded-full">Home + business</span>
+</div>
+</div>
+</section>
+</main>
+<div id="footer"></div>
+<script src="js/navbar.js"></script><script src="js/footer.js"></script><script src="js/main.js"></script>
+</body>
+</html>
