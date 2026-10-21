@@ -8,7 +8,7 @@
     + '<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">'
     + '<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">'
     + '<div><div class="flex items-center gap-3 mb-4">'
-    + '<span class="flex items-center justify-center w-11 h-11 rounded-lg bg-[#D97706]" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 17l6-6 4 4 6-6"/><path stroke-linecap="round" d="M3 21h18M5 13h4m6 0h4M7 9h4m6 0h4"/></svg></span>'
+    + '<span class="flex items-center justify-center w-11 h-11 rounded-xl bg-gradient-to-br from-[#F59E0B] to-[#D97706]" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 20.5 9.6 4.5h4.8l4.1 16"/><path d="M12 6.4v2.1M12 10.5v2.1M12 14.6v2.1M12 18.7v1.8"/><path d="M4 21.4h16" stroke-width="2.2"/></svg></span>'
     + '<span><span class="block font-extrabold text-lg leading-tight">StoneCraft <span class="text-[#D97706]">Paving</span></span><span class="block text-xs tracking-widest uppercase text-gray-300">Built Strong. Paved Right.</span></span></div>'
     + '<p class="text-gray-300 text-sm leading-relaxed">Professional concrete and paving solutions built for homes and businesses — quality materials, careful preparation and clean workmanship.</p>'
     + '<div class="flex items-center gap-2 mt-5">'

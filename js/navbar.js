@@ -22,8 +22,11 @@
     return '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7h13m0 0l-3-3m3 3l-3 3M16 17H3m0 0l3-3m-3 3l3 3"/></svg>';
   }
   function logoSVG() {
-    return '<span class="flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 rounded-lg bg-[#D97706] shrink-0" aria-hidden="true">'
-      + '<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 sm:h-7 sm:w-7 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 17l6-6 4 4 6-6"/><path stroke-linecap="round" d="M3 21h18M5 13h4m6 0h4M7 9h4m6 0h4"/></svg></span>';
+    return '<span class="flex items-center justify-center w-9 h-9 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-[#F59E0B] to-[#D97706] shrink-0" aria-hidden="true">'
+      + '<svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">'
+      + '<path d="M5.5 20.5 9.6 4.5h4.8l4.1 16"/>'
+      + '<path d="M12 6.4v2.1M12 10.5v2.1M12 14.6v2.1M12 18.7v1.8"/>'
+      + '<path d="M4 21.4h16" stroke-width="2.2"/></svg></span>';
   }
 
   var savedTheme = "light";
